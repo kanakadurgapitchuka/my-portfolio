@@ -296,3 +296,52 @@ nav ul li a:hover::after {
     color:#fff;
     margin-bottom:20px;
 }
+
+
+/* Mobile Responsive Design */
+
+@media screen and (max-width: 768px) {
+
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .header-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .header-image img {
+        width: 250px;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .about-col-1,
+    .about-col-2 {
+        width: 100%;
+    }
+
+    .services-list {
+        grid-template-columns: 1fr;
+    }
+
+    .container {
+        padding: 15px;
+    }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    overflow-x: hidden;
+}
