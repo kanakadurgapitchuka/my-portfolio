@@ -263,6 +263,11 @@ nav ul li a:hover::after {
   background: #e60045;
 }
 
+.cert-card .btn{
+    padding: 6px 12px;
+    font-size: 12px;
+}
+
 .cert-card{
     background:#262626;
     padding:15px;
